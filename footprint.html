@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!--
+
+  -->
+<!-- Mobile Specific Metas -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<!-- Font-->
+
+
+ <!--
+
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  -->
+
+
+  <title>Calculating Your Carbon Footprint Points</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts 
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Roboto:100,300,400,500,700|Philosopher:400,400i,700,700i" rel="stylesheet">
+
+  -->
+  Vendor CSS Files
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+   Template Main CSS File 
+  <link href="assets/css/style.css" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+      .survey-box {
+          width: 70%;
+          margin: 50px auto;
+          padding: 20px;
+          border: 1px solid #ccc;
+          border-radius: 10px;
+      }
+
+      body {
+        background-image: URL("assets/img/assistance-990332_1280-removebg-preview.png");
+  background-color: #71c55ddb; /* Light gray background */
+}
+
+.survey-box {
+  background-color: #f8f9fad4; /* White background for the survey box */
+  padding: 20px;
+  margin: 50px auto;
+  max-width: 884px;
+  box-shadow: 0 0 10px #198754;
+}
+
+h1, h3 {
+  color: #28a745; /* Dark blue heading */
+}
+
+/* Add color to buttons */
+.btn {
+  background-color: #28a746b9;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #2f3233; /* Slightly lighter blue on hover */
+}
+  </style>
+
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <div id="logo">
+        <h1><a href="index.html"><span>CO₂</span>emissions</a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" title="" /></a>-->
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto " href="index.html">Home</a></li>
+                </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>Calculating Your Carbon Footprint Points</h2>
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li>Calculating Your Carbon Footprint Points</li>
+          </ol>
+        </div>
+
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+
+
+  </main><!-- End #main -->
+
+  <body>
+    <div class="survey-box">
+        <h1 class="text-center">Calculating Your Carbon Footprint Points</h1>
+        <form action="/submit" method="post">
+            <div class="tab-content" id="surveyTabContent">
+
+                <div class="tab-pane fade show active" id="section1" role="tabpanel" aria-labelledby="section1-tab">
+                    <h3 class="mt-4">first questions</h3>
+
+                    <div class="form-group">
+                      <label for="householdMembers">Count the members of your household:</label>
+                      <select class="form-control" id="householdMembers" name="householdMembers">
+                          <option value="14">Living alone</option>
+                          <option value="12">2 members</option>
+                          <option value="10">3 members</option>
+                          <option value="8">4 members</option>
+                          <option value="6">5 members</option>
+                          <option value="4">More than 5 members</option>
+                      </select>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="homeSize">Consider the size of your home:</label>
+                    <div class="form-check">
+                        <input type="radio" name="homeSize" value="10" class="form-check-input" id="largeHome" >
+                        <label class="form-check-label" for="largeHome" >Large house </label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" name="homeSize" value="7" class="form-check-input" id="mediumHome">
+                        <label class="form-check-label" for="mediumHome">Medium-sized house </label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" name="homeSize" value="4" class="form-check-input" id="smallHome">
+                        <label class="form-check-label" for="smallHome">Small house</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" name="homeSize" value="2" class="form-check-input" id="apartment">
+                        <label class="form-check-label" for="apartment">Apartment </label>
+                    </div>
+                </div>
+    
+
+                <div class="form-group">
+                  <label for="foodChoices">Evaluate your food choices:</label>
+                  <div class="form-check">
+                      <input type="radio" name="foodChoices" value="10" class="form-check-input" id="dailyMeat" data-points="10">
+                      <label class="form-check-label" for="dailyMeat">Eat domestic meat daily </label>
+                  </div>
+                  <div class="form-check">
+                      <input type="radio" name="foodChoices" value="8" class="form-check-input" id="fewTimesPerWeek" data-points="8">
+                      <label class="form-check-label" for="fewTimesPerWeek">Eat domestic meat a few times per week </label>
+                  </div>
+                  <div class="form-check">
+                      <input type="radio" name="foodChoices" value="4" class="form-check-input" id="vegetarian" data-points="4">
+                      <label class="form-check-label" for="vegetarian">Vegetarian </label>
+                  </div>
+                  <div class="form-check">
+                      <input type="radio" name="foodChoices" value="2" class="form-check-input" id="vegan" data-points="2">
+                      <label class="form-check-label" for="vegan">Vegan or only eat wild meat </label>
+                  </div>
+                  <div class="form-check">
+                      <input type="radio" name="foodChoices" value="12" class="form-check-input" id="prepackaged" data-points="12">
+                      <label class="form-check-label" for="prepackaged">Eat mostly prepackaged convenience food </label>
+                  </div>
+                  <div class="form-check">
+                      <input type="radio" name="foodChoices" value="6" class="form-check-input" id="goodBalance" data-points="6">
+                      <label class="form-check-label" for="goodBalance">Good balance of fresh and convenience food </label>
+                  </div>
+                  <div class="form-check">
+                      <input type="radio" name="foodChoices" value="2" class="form-check-input" id="freshLocal" data-points="2">
+                      <label class="form-check-label" for="freshLocal">Eat only fresh, locally grown, or hunted food </label>
+                  </div>
+              </div>
+
+
+                    <button type="button" class="btn btn-primary" onclick="goToSection(2)">Next</button>
+
+                </div>
+
+
+
+                <div class="tab-pane fade" id="section2" role="tabpanel" aria-labelledby="section2-tab">
+                    <h3 class="mt-4">more questions</h3>
+
+
+              <div class="form-group">
+                <label for="waterConsumption">Examine your water consumption:</label>
+                <div class="form-check">
+                    <input type="radio" name="waterConsumption" value="3" class="form-check-input" id="moreThan9" data-points="3">
+                    <label class="form-check-label" for="moreThan9">Run dishwasher/washing machine more than 9 times per week </label>
+                </div>
+                <div class="form-check">
+                    <input type="radio" name="waterConsumption" value="2" class="form-check-input" id="4To9" data-points="2">
+                    <label class="form-check-label" for="4To9">Run dishwasher/washing machine 4 to 9 times per week </label>
+                </div>
+                <div class="form-check">
+                    <input type="radio" name="waterConsumption" value="1" class="form-check-input" id="1To3" data-points="1">
+                    <label class="form-check-label" for="1To3">Run dishwasher/washing machine 1 to 3 times per week </label>
+                </div>
+                <div class="form-check">
+                    <input type="radio" name="waterConsumption" value="0" class="form-check-input" id="noDishwasher" data-points="0">
+                    <label class="form-check-label" for="noDishwasher">No dishwasher</label>
+                </div>
+              </div>
+
+                <div class="form-group">
+                  <label for="householdPurchases">Determine your household purchases:</label>
+                  <div class="form-check">
+                      <input type="radio" name="householdPurchases" value="50" class="form-check-input" id="moreThan7" data-points="10">
+                      <label class="form-check-label" for="moreThan7">Purchase more than 7 new items per year </label>
+                  </div>
+                  <div class="form-check">
+                      <input type="radio" name="householdPurchases" value="40" class="form-check-input" id="5To7" data-points="8">
+                      <label class="form-check-label" for="5To7">Purchase between 5 and 7 new items per year </label>
+                  </div>
+                  <div class="form-check">
+                      <input type="radio" name="householdPurchases" value="30" class="form-check-input" id="3To5" data-points="6">
+                      <label class="form-check-label" for="3To5">Purchase between 3 and 5 new items per year</label>
+                  </div>
+                  <div class="form-check">
+                      <input type="radio" name="householdPurchases" value="20" class="form-check-input" id="lessThan3" data-points="4">
+                      <label class="form-check-label" for="lessThan3">Purchase less than 3 new items per year</label>
+                  </div>
+                  <div class="form-check">
+                      <input type="radio" name="householdPurchases" value="5" class="form-check-input" id="almostNothing" data-points="2">
+                      <label class="form-check-label" for="almostNothing">Purchase almost nothing or only secondhand items </label>
+                  </div>
+              </div>
+
+              <div class="form-group">
+                <label for="wasteProduction">Consider your waste production:</label>
+                <div class="form-check">
+                    <input type="radio" name="wasteProduction" value="50" class="form-check-input" id="4Cans" data-points="50">
+                    <label class="form-check-label" for="4Cans">Fill 4 garbage cans each week </label>
+                </div>
+                <div class="form-check">
+                    <input type="radio" name="wasteProduction" value="40" class="form-check-input" id="3Cans" data-points="40">
+                    <label class="form-check-label" for="3Cans">Fill 3 garbage cans each week</label>
+                </div>
+                <div class="form-check">
+                    <input type="radio" name="wasteProduction" value="30" class="form-check-input" id="2Cans" data-points="30">
+                    <label class="form-check-label" for="2Cans">Fill 2 garbage cans each week</label>
+                </div>
+                <div class="form-check">
+                    <input type="radio" name="wasteProduction" value="20" class="form-check-input" id="1Can" data-points="20">
+                    <label class="form-check-label" for="1Can">Fill 1 garbage can each week</label>
+                </div>
+                <div class="form-check">
+                    <input type="radio" name="wasteProduction" value="5" class="form-check-input" id="lessThanHalf" data-points="5">
+                    <label class="form-check-label" for="lessThanHalf">Fill half a garbage can or less each week </label>
+                </div>
+            </div>
+
+            <button type="button" class="btn btn-primary" onclick="goToSection(1)">Previous</button>
+            <button type="button" class="btn btn-primary" onclick="goToSection(3)">Next</button>
+
+            </div>
+
+
+            <div class="tab-pane fade" id="section3" role="tabpanel" aria-labelledby="section3-tab">
+              <h3 class="mt-4">more questions</h3>
+
+            <div class="form-group">
+              <label for="recycleWaste">Identify the amount of waste that you recycle:</label>
+              <div class="form-check">
+                  <input type="radio" name="recycleWaste" value="24" class="form-check-input" id="noRecycling" data-points="24">
+                  <label class="form-check-label" for="noRecycling">Do not recycle </label>
+              </div>
+              <div class="form-check">
+                  <input type="radio" name="recycleWaste" value="20" class="form-check-input" id="glass" data-points="20">
+                  <label class="form-check-label" for="glass">Recycle Glass</label>
+              </div>
+              <div class="form-check">
+                  <input type="radio" name="recycleWaste" value="20" class="form-check-input" id="plastic" data-points="20">
+                  <label class="form-check-label" for="plastic">Recycle Plastic </label>
+              </div>
+              <div class="form-check">
+                  <input type="radio" name="recycleWaste" value="20" class="form-check-input" id="paper" data-points="20">
+                  <label class="form-check-label" for="paper">Recycle Paper </label>
+              </div>
+              <div class="form-check">
+                  <input type="radio" name="recycleWaste" value="20" class="form-check-input" id="aluminum" data-points="20">
+                  <label class="form-check-label" for="aluminum">Recycle Aluminum </label>
+              </div>
+              <div class="form-check">
+                  <input type="radio" name="recycleWaste" value="20" class="form-check-input" id="steel" data-points="20">
+                  <label class="form-check-label" for="steel">Recycle Steel (</label>
+              </div>
+              <div class="form-check">
+                  <input type="radio" name="recycleWaste" value="20" class="form-check-input" id="foodWaste" data-points="20">
+                  <label class="form-check-label" for="foodWaste">Recycle Food waste </label>
+              </div>
+          </div>
+
+          <div class="form-group">
+            <label for="annualTransportation">Tally up your annual transportation scores:</label>
+            <div class="form-check">
+                <input type="radio" name="personalVehicle" value="12" class="form-check-input" id="moreThan15000" data-points="12">
+                <label class="form-check-label" for="moreThan15000">Travel more than 15,000 miles per year with personal vehicle </label>
+            </div>
+            <div class="form-check">
+                <input type="radio" name="personalVehicle" value="12" class="form-check-input" id="10000To15000" data-points="10">
+                <label class="form-check-label" for="10000To15000">Travel 10,000 to 15,000 miles per year with personal vehicle</label>
+            </div>
+            <!-- Include the rest of the radio inputs for personal vehicle usage -->
+            <!-- Include similar radio inputs for public transportation and flights -->
+        </div>
+      
+<div>
+    <button type="button" class="btn btn-primary" onclick="goToSection(2)">Previous</button>
+
+    <button type="button" class="btn btn-primary " id="calculate">Calculate</button>
+  </div>
+                </form>
+                <div class="mt-4" id="results">
+                    <h3>Your Carbon Footprint:</h3>
+                    <p id="carbon-output" style="color: #212529;font-size: 17px;font-weight: 500;">Results will appear here.</p>
+                </div>
+
+</div>
+              </div>
+
+                </div>
+            </div>
+        </form>
+    </div>
+
+
+  <!-- ======= Footer ======= -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-12 col-lg-4">
+          <div class="footer-logo">
+
+            <a class="navbar-brand" href="#">CO₂EMISSIONS</a>
+            <p>Calculate Your Emissions, Reduce Your Carbon Footprint And Support Climate Protection!</p>
+
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-3 col-lg-2">
+          <div class="list-menu">
+
+            <h4>Abou Us</h4>
+
+            <ul class="list-unstyled">
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Features item</a></li>
+              <li><a href="#">Live streaming</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-3 col-lg-2">
+          <div class="list-menu">
+
+            <h4>Abou Us</h4>
+
+            <ul class="list-unstyled">
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Features item</a></li>
+              <li><a href="#">Live streaming</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-3 col-lg-2">
+          <div class="list-menu">
+
+            <h4>Support</h4>
+
+            <ul class="list-unstyled">
+              <li><a href="#">faq</a></li>
+              <li><a href="#">Editor help</a></li>
+              <li><a href="#">Contact us</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-3 col-lg-2">
+          <div class="list-menu">
+
+            <h4>Abou Us</h4>
+
+            <ul class="list-unstyled">
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Features item</a></li>
+              <li><a href="#">Live streaming</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="copyrights">
+      <div class="container">
+        <p>&copy; Copyrights eStartup. All rights reserved.</p>
+        <div class="credits">
+          <!--
+          All the links in the footer should remain intact.
+          You can delete the links only if you purchased the pro version.
+          Licensing information: https://bootstrapmade.com/license/
+          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=eStartup
+        -->
+          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        </div>
+      </div>
+    </div>
+
+  </footer><!-- End  Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+ <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>-->
+
+
+
+  <!-- Template Main JS File -->
+ <!-- <script src="assets/js/main.js"></script>-->
+
+ <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+ <script>
+     function goToSection(section) {
+         $('.tab-pane').removeClass('show active');
+         $('#section' + section).addClass('show active');
+     }
+
+
+        function calculateFootprint() {
+            // Calculate total points
+            let totalPoints = 0; // Calculate the total points by adding individual category points
+
+            // Display the total points
+            document.getElementById("calculatePoints").value = totalPoints;
+
+            // Assess the impact based on the total points
+            let impactAssessment = (totalPoints < 60) ? "You're making a small impact on the planet." : "You might want to consider ways to reduce your impact.";
+
+            // Display the impact assessment
+            document.getElementById("footprintImpact").value = impactAssessment;
+        }
+
+        $(document).ready(function() {
+            $('#calculate').click(function() {
+                // Get values from input fields
+
+                var householdMembers = document.getElementsByName('householdMembers')[0];
+                var householdMembersValue = parseFloat(householdMembers.value || 0);
+
+
+                var homeSize = document.getElementsByName('homeSize')[0];
+                var homeSizeValue = parseFloat(homeSize.value || 0);
+
+                var foodChoices = document.getElementsByName('foodChoices')[0];
+                var foodChoicesValue = parseFloat(foodChoices.value || 0);
+
+                var waterConsumption = document.getElementsByName('waterConsumption')[0];
+                var waterConsumptionValue = parseFloat(waterConsumption.value || 0);
+
+
+                var householdPurchases = document.getElementsByName('householdPurchases')[0];
+                var householdPurchasesValue = parseFloat(householdPurchases.value || 0);
+                
+                var wasteProduction = document.getElementsByName('wasteProduction')[0];
+                var wasteProductionValue = parseFloat(wasteProduction.value || 0);
+
+                var recycleWaste = document.getElementsByName('recycleWaste')[0];
+                var recycleWasteValue = parseFloat(recycleWaste.value || 0);
+
+                var personalVehicle = document.getElementsByName('personalVehicle')[0];
+                var personalVehicleValue = parseFloat(personalVehicle.value || 0);
+               
+                
+                // Perform carbon footprint calculation (simplified for demonstration)
+                var totalCarbonFootprint = householdMembersValue  + homeSizeValue +foodChoicesValue +waterConsumptionValue +householdPurchasesValue+ wasteProductionValue+ recycleWasteValue +personalVehicleValue; // Example calculation
+
+                let impactAssessment = (totalCarbonFootprint < 60) ? "You're making a small impact on the planet." : "You might want to consider ways to reduce your impact.";
+
+                // Display the result
+                $('#carbon-output').text( impactAssessment + "  "+totalCarbonFootprint )
+                // +"  "+householdMembersValue  + "  "+homeSizeValue +"  "+foodChoicesValue +"  "+waterConsumptionValue +"  "+householdPurchasesValue+ "  "+wasteProductionValue+"  "+recycleWasteValue+"  "+personalVehicleValue);-->
+            });
+        });
+
+ </script>
+
+</body>
+
+</html>
